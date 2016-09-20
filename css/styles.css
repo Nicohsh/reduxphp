@@ -27,9 +27,16 @@ header {
 	-moz-box-shadow: 10px 10px 5px 0px rgba(235,228,235,1);
 	box-shadow: 10px 10px 5px 0px rgba(235,228,235,1);
 	background-color: white;
+    overflow: auto;
 }
 .joke img {
 	float: left;
-	margin-right: 20px;
+	margin: 20px;
+    width: 150px;
 }
 
+.joke h2 {
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
